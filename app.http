@@ -1,0 +1,14 @@
+get http://localhost:3000/movies/
+
+post http://localhost:3000/movies/
+
+get http://localhost:3000/movies/:46/
+
+put http://localhost:3000/movies/:movieId/
+
+delete http://localhost:3000/movies/:movieId/
+
+get http://localhost:3000/directors/
+
+get http://localhost:3000/directors/:46/movies/
+
